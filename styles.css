@@ -1,0 +1,51 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.masthead{
+    background-size: cover;
+    min-height: 100vh;
+    position:relative;
+}
+
+#header{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    background: rgba(36, 138, 234, 0.539);
+    border-radius: 50px;
+    text-shadow:
+    -1px 0px 0px black,
+    1px 0px 0px black,
+    0px -1px 0px black,
+    0px 1px 0px black;color: white;
+}
+
+#title{
+    text-shadow:
+    -1px 0px 0px black,
+    1px 0px 0px black,
+    0px -1px 0px black,
+    0px 1px 0px black;color: white;
+}
+
+#caption{
+    text-shadow:
+    -1px 0px 0px black,
+    1px 0px 0px black,
+    0px -1px 0px black,
+    0px 1px 0px black;color: white;
+}
+
+.form-control::placeholder { 
+    color:rgba(242,55,169,255);
+            
+}
+
+@media (max-width: 768px){
+    .masthead{
+        min-height: 50vh;
+    }
+    
+}
+
+
